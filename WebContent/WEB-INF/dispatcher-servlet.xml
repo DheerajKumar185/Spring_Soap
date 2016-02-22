@@ -33,6 +33,10 @@
 			<value>.jsp</value>
 		</property>
 	</bean>
+	
+	<bean name="indexController"
+		class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+		viewName="index" />
 
 </beans>
 
